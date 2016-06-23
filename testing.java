@@ -11,6 +11,8 @@ public class testing {
 
 	       //Open the URL in firefox browser
 	       driver.get("https://www.gmail.com");
+	       
+	       driver.getTitle();
 
 	       //Maximize the Browser window
 	       driver.manage().window().maximize();
@@ -20,6 +22,9 @@ public class testing {
 
 	       //Print the value of variable in the console
 	       System.out.println("The current URL is " + str);
+	       
+	       System.out.println("The current tile " + driver.getTitle());
+
 
 	}
 
