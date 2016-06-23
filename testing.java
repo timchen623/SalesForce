@@ -12,6 +12,7 @@ public class testing {
 	       //Open the URL in firefox browser
 	       driver.get("https://www.gmail.com");
 	       
+	       //testing the title
 	       driver.getTitle();
 
 	       //Maximize the Browser window
